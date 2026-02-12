@@ -1,11 +1,11 @@
-+++
+---
 date: 2026-01-15T12:21:32-08:00
 draft: false
-title = "About"
+title: "About"
 url: about
 _build:
   list: never
-+++
+---
 
 # What I Use
 I use a variety of Software. professionally,   I tend to build applications for iOS and python programs/scripts. 
