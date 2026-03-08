@@ -1,11 +1,8 @@
 ---
-Title: PicoClaw on LicheeRV Nano
-created: 2026-03-03
-Last modified: 2026-03-07
-tags:
-  - AI
-  - hardware
-Reference Note:
+title: PicoClaw on LicheeRV Nano
+date: 2026-03-03
+draft: false
+categories: [AI, hardware]
 ---
 
 > PicoClaw is an ultra-lightweight AI personal assistant written in Go. Running on a $10 RISC-V board like the [[LicheeRV Nano]], it boots in under 1 second and uses less than 10MB of RAM.
