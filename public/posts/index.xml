@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Me vs The Robots</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Me vs The Robots</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 11:34:45 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Me vs The Robots</title>
-      <link>http://localhost:1313/posts/me-vs-the-robots/</link>
-      <pubDate>Wed, 14 Jan 2026 11:34:45 +0000</pubDate>
-      <guid>http://localhost:1313/posts/me-vs-the-robots/</guid>
-      <description>&lt;p&gt;This is the first post of an &lt;em&gt;idea throwing&lt;/em&gt; blog.&lt;/p&gt;&#xA;&lt;p&gt;I decided to start this blog as a way to document small findings on my journey understanding how to work with A.I and trying to keep up to date.&lt;/p&gt;&#xA;&lt;p&gt;At the same time I hope this helps to anyone trying to get the hang of vibe coding and surviving the tech industry in trying times.&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;To whomever reads this..&lt;/em&gt;&#xA;Feel free to have questions and challenge anything I write here i&amp;rsquo;m learning.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Me vs The Robots</title><link>https://example.com/posts/</link><description>Recent content in Posts on Me vs The Robots</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 14 Jan 2026 11:34:45 +0000</lastBuildDate><atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Me vs The Robots</title><link>https://example.com/posts/me-vs-the-robots/</link><pubDate>Wed, 14 Jan 2026 11:34:45 +0000</pubDate><guid>https://example.com/posts/me-vs-the-robots/</guid><description>&lt;p&gt;This is the first post of an &lt;em&gt;idea throwing&lt;/em&gt; blog.&lt;/p&gt;
+&lt;p&gt;I decided to start this blog as a way to document small findings on my journey understanding how to work with A.I and trying to keep up to date.&lt;/p&gt;
+&lt;p&gt;At the same time I hope this helps to anyone trying to get the hang of vibe coding and surviving the tech industry in trying times.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;To whomever reads this..&lt;/em&gt;
+Feel free to have questions and challenge anything I write here i&amp;rsquo;m learning.&lt;/p&gt;</description></item><item><title>Untitled</title><link>https://example.com/posts/convert-mov-to-mp4-with-ffmpeg/</link><pubDate>Fri, 10 Mar 2023 11:28:07 -0600</pubDate><guid>https://example.com/posts/convert-mov-to-mp4-with-ffmpeg/</guid><description>&lt;h1 id="convert-mov-to-mp4-with-ffmpeg"&gt;Convert .mov to .mp4 with ffmpeg&lt;/h1&gt;
+&lt;p&gt;I recently wanted to save a Quicktime screen recording .mov file as .mp4.&lt;/p&gt;
+&lt;p&gt;There are a number of tools online, but why load any of those when you can just run ffmpeg from your terminal! You can download their installer or on a Mac, just run brew install ffmpeg.&lt;/p&gt;
+&lt;p&gt;To convert it and also compress the result, you can run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-Bash" data-lang="Bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;ffmpeg -i my-video.mov -vcodec h264 -acodec mp2 my-video.mp4
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="if-no-audio-converted"&gt;If No audio converted&lt;/h2&gt;
+&lt;p&gt;If the converted video has no audio you can try other audio codec options normally aac is a good option to try first.&lt;/p&gt;</description></item><item><title>Fix LLDB</title><link>https://example.com/posts/fix-lldb/</link><pubDate>Tue, 08 Nov 2022 14:27:50 -0600</pubDate><guid>https://example.com/posts/fix-lldb/</guid><description>&lt;h1 id="fixing-virtual-filesystem-overlay-file-all-product-headersyaml-not-found-error"&gt;Fixing “virtual filesystem overlay file all-product-headers.yaml not found” error&lt;/h1&gt;
+&lt;p&gt;In the last few days, I saw an increasing number of developers facing a common problem trying to use lldb during a debugging session.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-Bash" data-lang="Bash"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;error: virtual filesystem overlay file &lt;span style="color:#e6db74"&gt;&amp;#39;/Users/t2ac32/Library/Caches/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;org.carthage.CarthageKit/DerivedData/13.4.1_13F100/RxSwift/6.5.0/Build/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;Intermediates.noindex/ArchiveIntermediates/RxSwift/IntermediateBuildFilesPath/
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;Rx.build/Release-iphoneos/RxSwift.build/all-product-headers.yaml&amp;#39;&lt;/span&gt; not found
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This error could be really annoying, because it blocks the developer to use the lldb resources, such as po to verify values or conditions during runtime.&lt;/p&gt;
+&lt;h2 id="the-root-cause"&gt;The root cause&lt;/h2&gt;
+&lt;p&gt;There is a known problem for Swift community, about how the compiler generates some artifacts, used by LLDB to process the symbols during the debug session.&lt;/p&gt;</description></item></channel></rss>
